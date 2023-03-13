@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+
+    &__title {
+        font-size: 1.5rem;
+        color: #a349a4;
+        margin-bottom: 20px;
+    }
+
+    &__search {
+        display: flex;
+        padding: 0.5rem;
+        border: 2px solid #ddd;
+        margin-bottom: 15px;
+        border-radius: 0.5rem;
+        background-color: #f8f8f8;
+        outline: none;
+        transition: all ease 0.3s;
+
+        &:focus {
+            border-color: #a349a4;
+            background-color: #fff;
+        }
+    }
+}

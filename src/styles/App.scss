@@ -1,0 +1,8 @@
+/* si lo hago con diferentes componentes dentro de STYLES, tendria dentro de styles un mapa de components y ahi dentro los files _header.scss etc y aqui los puedo importar como hice en ejemplo aqui abajo 
+ */
+
+@import './core/reset.scss';
+@import './layout/page.scss';
+@import './components/header.scss';
+@import './components/phrases-list.scss';
+@import './components/new-phrase.scss';
